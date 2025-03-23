@@ -15,10 +15,10 @@ public class Driver {
         // Step 3: Create an instance of LoginPage
         LoginPage loginPage = new LoginPage(driver);
 
-//        // Step 4: Perform Login Actions
-//        loginPage.enterUsername("standard_user");
-//        loginPage.enterPassword("secret_sauce");
-//        loginPage.clickLoginButton();
+        // Step 4: Perform Login Actions
+        loginPage.enterUsername("standard_user");
+        loginPage.enterPassword("secret_sauce");
+        loginPage.clickLoginButton();
 
         // Step 5: Wait for a few seconds (Optional for visibility)
         try {
