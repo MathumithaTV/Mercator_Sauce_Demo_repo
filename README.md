@@ -32,4 +32,7 @@ TestNG: For running tests and generating reports.
 
 Page Object Model: To maintain a clear structure for test automation.
 
+**Run Tests Using Maven**
+
+**mvn clean test**
 
